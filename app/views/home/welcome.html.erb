@@ -2,3 +2,4 @@
 <%= content_tag :h1, "Welcome to #{@title}" %>
 <%# React renedered component %>
 <%= react_component('Home::Welcome', title: @title)  %>
+<%= react_component('Profile::Profile', user_name: 'braidn') %>
