@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Contained within Docker (just run `docker-compose up`).
 
-Things you may want to cover:
+This is just a small exploration project to check out 
+Opal + React + Rails written 100 percent in Ruby. 
 
-* Ruby version
+## The Point
 
-* System dependencies
+Get a good feeling on how to write front-end and back-end 
+applications ONLY using a single language. The idea is to 
+minimize ALL of the context switching that is involved when 
+writing a Rails app married to Coffeescript and or JS.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Is it possible?
+How Well does it work?
