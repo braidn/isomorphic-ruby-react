@@ -160,6 +160,7 @@ GEM
       execjs
       railties (>= 3.2)
       tilt
+    redis (3.3.2)
     ref (2.0.0)
     sass (3.4.23)
     sass-rails (5.0.6)
@@ -215,6 +216,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.0)
   rails (~> 5.0.1)
+  redis
   sass-rails (~> 5.0)
   therubyracer
   turbolinks (~> 5)
