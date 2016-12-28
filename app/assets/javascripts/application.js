@@ -1,8 +1,3 @@
-// added by hyper-rails:  These lines must preceed other requires especially turbo_links
-//= require 'opal'
-//= require 'react/react-source'
-//= require 'components'
-//= require 'react_ujs'
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -14,6 +9,12 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
+//
+// added by hyper-rails:  These lines must preceed other requires especially turbo_links
+//= require 'opal'
+//= require 'react/react-source'
+//= require 'components'
+//= require 'react_ujs'
 //
 //= require jquery
 //= require jquery_ujs

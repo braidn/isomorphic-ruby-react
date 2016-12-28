@@ -47,6 +47,11 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  config.action_cable.url = ENV['ACTION_CABLE_FRONTEND_URL']
+  origins = ENV['ACTION_CABLE_ALLOWED_REQUEST_ORIGINS'].split(',')
+  origins.map! { |url| /#{url}/ }
+  config.action_cable.allowed_request_origins = origins
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 

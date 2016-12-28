@@ -9,6 +9,6 @@ if React::IsomorphicHelpers.on_opal_client?
   # add any additional requires that can ONLY run on client here
 end
 
-
-
+require 'hyper-mesh'
+require 'models'
 require_tree './components'

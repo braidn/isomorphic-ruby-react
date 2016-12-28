@@ -30,4 +30,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'opal-rails'
 gem 'opal-browser'
 gem 'hyper-react'
+gem 'hyper-mesh'
 gem 'therubyracer', platforms: :ruby

@@ -7,6 +7,7 @@ module Components
         div do
           Avatar user_name: params.user_name
           Link user_name: params.user_name
+          Details user_name: params.user_name
         end
       end
     end

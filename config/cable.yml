@@ -1,5 +1,6 @@
 development:
-  adapter: async
+  adapter: redis
+  url: <%= ENV['ACTION_CABLE_BACKEND_URL'] %> 
 
 test:
   adapter: async
